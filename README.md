@@ -17,7 +17,7 @@ WorldTripClub은 여행을 준비하는 사용자가
 
 🖥️ 메인 화면 구성
 
-##1️⃣ Hero Section
+1️⃣ Hero Section
 
 서비스의 콘셉트를 전달하는 헤드라인 영역
 
@@ -25,7 +25,7 @@ World Map 기반의 시각적 안내
 
 Get Started 버튼을 통해 주요 기능으로 자연스럽게 유도
 
-##2️⃣ Exchange Rates
+2️⃣ Exchange Rates
 
 주요 통화 기준 환율 정보 제공
 
@@ -39,7 +39,7 @@ Get Started 버튼을 통해 주요 기능으로 자연스럽게 유도
 
 카드 형태로 구성하여 한눈에 비교 가능
 
-##3️⃣ World Cities
+3️⃣ World Cities
 
 주요 글로벌 도시 정보 제공
 
@@ -53,7 +53,7 @@ NYC, FRA, TYO, PEK
 
 원형 카드 UI로 시각적 구분을 강화
 
-##4️⃣ Travel Planner
+4️⃣ Travel Planner
 
 출발지와 도착지를 기준으로 한 이동 정보 영역
 
@@ -94,6 +94,7 @@ Design: Figma
 Backend: Spring Boot (예정)
 
 API: Exchange / Weather / Timezone API
+
 
 
 
