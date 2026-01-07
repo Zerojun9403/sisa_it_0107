@@ -95,8 +95,6 @@ Backend: Spring Boot (예정)
 API: Exchange / Weather / Timezone API
 
 
-
-
 worldtripclub/
  ├─ README.md          ✅ (지금 만든 설명)
  ├─ design/
@@ -104,3 +102,4 @@ worldtripclub/
  ├─ docs/
  │   └─ planning.md    (선택)
  └─ .gitignore
+
