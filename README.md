@@ -96,7 +96,7 @@ Backend: Spring Boot (예정)
 API: Exchange / Weather / Timezone API
 
 
-
+##프로젝트 구조
 
 ```
 worldtripclub/
@@ -105,7 +105,9 @@ worldtripclub/
 │ └─ wireframe.png ✅ (피그마 캡처)
 ├─ docs/
 │ └─ planning.md (선택)
-  └─ .gitignore
+└─ .gitignore
+'''
+
 
 
 
