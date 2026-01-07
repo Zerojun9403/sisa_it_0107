@@ -16,6 +16,7 @@ WorldTripClub은 여행을 준비하는 사용자가
 주요 글로벌 도시를 중심으로 정보를 빠르게 파악할 수 있도록 구성했습니다.
 
 🖥️ 메인 화면 구성
+
 ##1️⃣ Hero Section
 
 서비스의 콘셉트를 전달하는 헤드라인 영역
@@ -93,5 +94,6 @@ Design: Figma
 Backend: Spring Boot (예정)
 
 API: Exchange / Weather / Timezone API
+
 
 
