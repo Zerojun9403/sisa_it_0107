@@ -98,3 +98,16 @@ API: Exchange / Weather / Timezone API
 
 
 
+```
+worldtripclub/
+├─ README.md ✅ (지금 만든 설명)
+├─ design/
+│ └─ wireframe.png ✅ (피그마 캡처)
+├─ docs/
+│ └─ planning.md (선택)
+  └─ .gitignore
+
+
+
+
+
