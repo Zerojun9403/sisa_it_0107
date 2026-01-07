@@ -1,44 +1,37 @@
 package com.sisa;
 
-import java.io.IOException;
+import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Gugudan {
 
-    InputStreamReader isr = new InputStreamReader(System.in);
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     int inputDan() {
         int dan = 0;
         try {
             System.out.print("원하는 단? ");
-            dan = isr.read() - '0'; // 문자 → 숫자
-            isr.read(); // \n
-            isr.read(); // \r
-        } catch (IOException e) {
-            e.printStackTrace();
+            dan = Integer.parseInt(br.readLine());
+        } catch (Exception e) {
+            System.out.println("숫자만 입력하세요");
         }
         return dan;
     }
 
     void outputDan(int dan) {
         for (int i = 1; i <= 9; i++) {
-            System.out.println(dan + "*" + i + "=" + (dan * i));
+            System.out.println(dan + " * " + i + " = " + (dan * i));
         }
-        return;
     }
 
     char continueDan() {
-        char result = 'n';
+        char answer = 'n';
         try {
             System.out.print("계속(y/n)? ");
-            result = (char) isr.read();
-            isr.read(); // \n
-            isr.read(); // \r
-        } catch (IOException e) {
-            e.printStackTrace();
+            answer = br.readLine().toLowerCase().charAt(0);
+        } catch (Exception e) {
+            System.out.println("입력 오류");
         }
-        return result;
+        return answer;
     }
-	
-	
 }
